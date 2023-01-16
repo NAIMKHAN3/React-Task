@@ -2,11 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Progressbar from './components/Progressbar';
 import Activity from './components/Activity';
+import OrderInfo from './components/OrderInfo';
 
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <div className="drawer drawer-mobile">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
 
@@ -15,7 +16,12 @@ function App() {
           <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
           <div className='grid grid-cols-3'>
             <div className='border border-red-500 h-[300px] w-full col-span-2'>
-              <h1>This is Naim</h1>
+              <OrderInfo></OrderInfo>
+
+
+
+
+
             </div>
             <div className='border border-blue-500 h-full w-full'>
               <img src="https://i.pinimg.com/originals/3a/77/24/3a772460c22160b4f62d14bed618b123.jpg" alt="" />
