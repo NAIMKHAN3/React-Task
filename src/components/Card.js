@@ -4,7 +4,7 @@ import { FaCircleNotch, FaShoppingCart, FaUserFriends } from 'react-icons/fa';
 const Card = () => {
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3'>
-            <div className='flex shadow-lg p-3 my-2 mx-1 rounded-md'>
+            <div className='grid grid-cols-2 lg:flex  shadow-lg p-3 my-2 mx-1 rounded-md'>
                 <FaCircleNotch className='w-12  h-8 text-primary my-auto '></FaCircleNotch>
                 <div>
                     <small>Revenues</small>
@@ -14,7 +14,7 @@ const Card = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex shadow-lg p-3 m-2 rounded-md'>
+            <div className='grid grid-cols-2 lg:flex shadow-lg p-3 m-2 rounded-md'>
                 <FaShoppingCart className='w-12 h-6 text-primary my-auto'></FaShoppingCart>
                 <div>
                     <small>Orders</small>
@@ -24,7 +24,7 @@ const Card = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex shadow-lg p-3 m-2 rounded-md'>
+            <div className='grid grid-cols-2 lg:flex shadow-lg p-3 m-2 rounded-md'>
                 <FaUserFriends className='w-12 h-6 text-primary my-auto'></FaUserFriends>
                 <div>
                     <small>Customers</small>

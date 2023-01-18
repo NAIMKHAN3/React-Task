@@ -54,7 +54,7 @@ function App() {
                 <h1 className='font-bold text-xl'>Kajal Agarwal</h1>
                 <p>Product Designer</p>
               </div>
-              <div className='grid grid-cols-1 lg:grid-cols-2 my-3 border-b-2'>
+              <div className='grid grid-cols-2 my-3 border-b-2'>
                 <div className='flex flex-col justify-center items-center border-r-2'>
                   <h1 className='font-bold text-xl'>1,269</h1>
                   <p>Products</p>
