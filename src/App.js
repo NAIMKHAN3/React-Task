@@ -4,6 +4,7 @@ import Progressbar from './components/Progressbar';
 import Activity from './components/Activity';
 import OrderInfo from './components/OrderInfo';
 import OverviewChart from './components/OverviewChart';
+import Overview from './components/Overview';
 
 
 function App() {
@@ -19,16 +20,20 @@ function App() {
             <div className='border h-[300px] w-full col-span-2'>
               <OrderInfo></OrderInfo>
 
-              <div className='grid grid-cols-3 my-3'>
+              <div className='grid grid-cols-3 m-3'>
                 <div className='border border-sky-700'>
-                  <h1>This is naim</h1>
+                  <Overview></Overview>
                 </div>
                 <div className='col-span-2 border border-green-600'>
                   <OverviewChart></OverviewChart>
                 </div>
 
               </div>
+              <div className='grid grid-cols-3 m-3'>
 
+
+              </div>
+              <h1>This is kamrul</h1>
 
 
             </div>
