@@ -3,6 +3,7 @@ import './App.css';
 import Progressbar from './components/Progressbar';
 import Activity from './components/Activity';
 import OrderInfo from './components/OrderInfo';
+import OverviewChart from './components/OverviewChart';
 
 
 function App() {
@@ -11,14 +12,22 @@ function App() {
       <div className="drawer drawer-mobile">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
 
-        <div className="drawer-content p-4 border border-orange-500">
+        <div className="drawer-content p-4">
 
           <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
           <div className='grid grid-cols-3'>
-            <div className='border border-red-500 h-[300px] w-full col-span-2'>
+            <div className='border h-[300px] w-full col-span-2'>
               <OrderInfo></OrderInfo>
 
+              <div className='grid grid-cols-3 my-3'>
+                <div className='border border-sky-700'>
+                  <h1>This is naim</h1>
+                </div>
+                <div className='col-span-2 border border-green-600'>
+                  <OverviewChart></OverviewChart>
+                </div>
 
+              </div>
 
 
 
