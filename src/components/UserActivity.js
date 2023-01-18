@@ -32,7 +32,7 @@ const UserActivity = () => {
     ];
 
     return (
-        <div className='shadow-2xl rounded-lg p-2 m-2 h-[320px]'>
+        <div className='shadow-2xl rounded-lg p-2 m-2 h-[330px]'>
             <h1 className='font-bold'>User Activity</h1>
             <small className='font-bold'>This Month</small>
             <h1 className='font-bold text-xl'>16,543</h1>

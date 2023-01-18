@@ -3,7 +3,7 @@ import { FaCircleNotch, FaShoppingCart, FaUserFriends } from 'react-icons/fa';
 
 const Card = () => {
     return (
-        <div className='grid grid-cols-3'>
+        <div className='grid grid-cols-1 lg:grid-cols-3'>
             <div className='flex shadow-lg p-3 my-2 mx-1 rounded-md'>
                 <FaCircleNotch className='w-12  h-8 text-primary my-auto '></FaCircleNotch>
                 <div>
