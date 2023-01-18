@@ -5,6 +5,9 @@ import Activity from './components/Activity';
 import OrderInfo from './components/OrderInfo';
 import OverviewChart from './components/OverviewChart';
 import Overview from './components/Overview';
+import UserActivity from './components/UserActivity';
+import OrderStatus from './components/OrderStatus';
+import TopOrder from './components/TopOrder';
 
 
 function App() {
@@ -20,7 +23,7 @@ function App() {
             <div className='border h-[300px] w-full col-span-2'>
               <OrderInfo></OrderInfo>
 
-              <div className='grid grid-cols-3 m-3'>
+              <div className='grid grid-cols-3 m-3 shadow-xl rounded-lg'>
                 <div className='border border-sky-700'>
                   <Overview></Overview>
                 </div>
@@ -30,10 +33,11 @@ function App() {
 
               </div>
               <div className='grid grid-cols-3 m-3'>
-
+                <UserActivity></UserActivity>
+                <OrderStatus></OrderStatus>
+                <TopOrder></TopOrder>
 
               </div>
-              <h1>This is kamrul</h1>
 
 
             </div>
@@ -68,8 +72,8 @@ function App() {
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 bg-slate-900 text-white">
 
-            <li><a>Sidebar Item 1</a></li>
-            <li><a>Sidebar Item 2</a></li>
+            <li><a>Deshboard</a></li>
+            <li><a>Ecommerce</a></li>
           </ul>
 
         </div>
